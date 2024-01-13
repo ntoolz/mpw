@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 800px;
+    font-size: 18px;
+
+    color: #eee;
+    background-color: rgb(14, 13, 13);
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number],input[type=password],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid transparent !important;
+  box-sizing: border-box;
+
+  background-color: #0c0c0c;
+  color: #eee;
+ 
+  border-top: 0px transparent !important;
+  border-bottom: 1px solid #000000 !important;
+  border-left: 0px solid transparent !important;
+  border-right: 0px solid transparent !important;
+  
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #012c1c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+  
+  background-color: #04AA6D;
+}
+
+
+.container {
+  padding: 16px;
+  border: 1px solid #161616fd;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0, 0, 0); /* Black w/ opacity */
+  padding-top: 180px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #313030;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width:400px;
+}
+
+.hide { display: none;}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.bgfg {
+    background-color: #161616fd;
+    color: #eee;
+}
+
+.form{
+    margin: 0px;background: transparent;border-color: #0000;
+}
+
+.genpass{
+    font-size: 30px !important;
+    font-weight: bolder;
+    padding: 10px 10px;
+    background-color: #161616fd !important;
+    text-align: center;
+    font-family:  'Courier New', 'Courier', 'monospace';
+    color: #eee !important;
+    text-shadow: 0 0 10px #f00606;
+    border: 1px solid #eee !important;
+
+  }
+
+meter{
+  height: 20px;
+  width: 80%;
+  background: #000000;
+}
+
+.lowercse{
+  text-transform:lowercase;
+}
