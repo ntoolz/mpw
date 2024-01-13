@@ -1,6 +1,6 @@
 {
-    "name": "Master Password",
-    "short_name": "Master Pswd",
+    "name": "Master Password..|",
+    "short_name": "Master Password..|",
     "description": "Master Password implimitation that derives the password",
     "id":"/",
     "start_url": "index.html",
