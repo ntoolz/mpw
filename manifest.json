@@ -5,7 +5,6 @@
     "id":"/",
     "start_url": "index.html",
     "display": "standalone",
-    "display_override": [ "minimal-ui"],
     "background_color": "#080808",
     "theme_color": "#080808",
     "orientation": "portrait-primary",   
