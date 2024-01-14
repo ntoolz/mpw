@@ -20,7 +20,7 @@ input[type=text], input[type=number],input[type=password],select {
   box-sizing: border-box;
 
   /*background-color: #0c0c0c;*/
-  background-color: transparent !important;
+  background-color: #070707 !important;
   color: #eee;
 
   font-size: 18px ;
@@ -123,7 +123,7 @@ button:focus {
 
 .pass1{
   text-align: center;
-   font-size: 28px !important;
+  font-size: 28px !important;
   border: 1px solid #3c3c3d;
   border-top: 0px #3c3c3d !important;
   border-bottom: 1px solid #3c3c3d !important;
@@ -133,6 +133,7 @@ button:focus {
   color: #e4e4e4 !important;
   cursor: grabbing;
   font-size: 28px;
+  font-family: "Courier New" !important;
 }
 
 label{
@@ -154,6 +155,7 @@ meter{
   float: left;
   width: 15%;
   margin-top: 5%;
+
 }
 
 .col-75 {
@@ -198,6 +200,7 @@ meter{
 }
 label{
   color: #696969;
+  border:1px solid #FFF;
 }
 
 .pass1{
