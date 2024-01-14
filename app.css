@@ -18,19 +18,14 @@ input[type=text], input[type=number],input[type=password],select {
   display: inline-block;
   border: 1px solid transparent !important;
   box-sizing: border-box;
-
   /*background-color: #0c0c0c;*/
-  background-color: #070707 !important;
+  background-color: #080808 !important;
   color: #eee;
-
-  font-size: 18px ;
- 
+  font-size: 18px;
   border-top: 1px #eee !important;
   border-bottom: 1px solid #3c3c3d !important;
   border-left: 10px solid transparent !important;
   border-right:10px solid transparent !important;
-  
-  
 }
 
 /* Set a style for all buttons */
@@ -55,10 +50,10 @@ button:hover {
 
 
 .container {
-  padding: 16px;
+  padding: 0px;
   border: 5px solid #1f1f1f;
-  background: radial-gradient(#00000000 16%, rgb(0, 0, 0)) !important;
-  box-shadow: 0 0 500px #00000000 ;
+  background: radial-gradient(#181818 16%, rgb(0, 0, 0)) !important;
+  box-shadow: 0 0 500px #00000000;
 }
 
 span.psw {
@@ -132,12 +127,12 @@ button:focus {
   text-shadow: 0 0 10px #c2c2c2 !important;
   color: #e4e4e4 !important;
   cursor: grabbing;
-  font-size: 28px;
+  font-weight: bold;
   font-family: "Courier New" !important;
 }
 
 label{
-  color: #c9c9c9;
+  color: #C9C9c9;
   font-size: 18px !important;
 }
 
