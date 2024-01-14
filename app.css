@@ -3,11 +3,8 @@ body {
     margin: auto;
     max-width: 800px;
     font-size: 18px !important;
-
     color: #eee;
     background-color: rgb(14, 13, 13);
-    
-
 }
 
 /* Full-width input fields */
@@ -19,7 +16,7 @@ input[type=text], input[type=number],input[type=password],select {
   border: 1px solid transparent !important;
   box-sizing: border-box;
   /*background-color: #0c0c0c;*/
-  background-color: #080808 !important;
+  background-color: #070707 !important;
   color: #eee;
   font-size: 18px;
   border-top: 1px #eee !important;
@@ -50,9 +47,9 @@ button:hover {
 
 
 .container {
-  padding: 0px;
+  padding: 16px;
   border: 5px solid #1f1f1f;
-  background: radial-gradient(#181818 16%, rgb(0, 0, 0)) !important;
+  background: radial-gradient(#00000000 16%, rgb(0, 0, 0)) !important;
   box-shadow: 0 0 500px #00000000;
 }
 
@@ -101,7 +98,9 @@ button:focus {
 }
 
 .form{
-    margin: 0px;background: transparent;border-color: #0000;
+    margin: 0px;
+    background: transparent;
+    border-color: #0000;
 }
 
 .genpass{
@@ -118,21 +117,20 @@ button:focus {
 
 .pass1{
   text-align: center;
-  font-size: 28px !important;
+  font-size: 48px !important;
   border: 1px solid #3c3c3d;
   border-top: 0px #3c3c3d !important;
   border-bottom: 1px solid #3c3c3d !important;
   border-left: 0px solid #3c3c3d !important;
   border-right: 0px solid #3c3c3d !important;
-  text-shadow: 0 0 10px #c2c2c2 !important;
-  color: #e4e4e4 !important;
+
   cursor: grabbing;
-  font-weight: bold;
+  font-size: 28px;
   font-family: "Courier New" !important;
 }
 
 label{
-  color: #C9C9c9;
+  color: #c9c9c9;
   font-size: 18px !important;
 }
 
@@ -190,9 +188,10 @@ meter{
   justify-items: center;
  }
 
- input[type=text], input[type=number],input[type=password],select {
+input[type=text], input[type=number],input[type=password],select {
   font-size: 18px !important;
 }
+  
 label{
   color: #696969;
 }
@@ -202,6 +201,24 @@ label{
   color: #f35626;
 }
 
+.container{
+  padding: 0px !important;
+  border: 0px solid transparent;
+}
+
+.pass1{
+  font-size: 40px !important;   
+  padding: 10px 0px !important;
+  font-size:25px !important;
+font-family: monospace !important;
+  animation: mymove 10s infinite;
+}
 
   
+}
+
+@keyframes mymove {
+   0% { color: #ff5555; }
+  50% { color: #65ff65; }
+  100% { color: #5f5fff; }
 }
