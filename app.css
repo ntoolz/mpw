@@ -123,7 +123,7 @@ button:focus {
   border-bottom: 1px solid #3c3c3d !important;
   border-left: 0px solid #3c3c3d !important;
   border-right: 0px solid #3c3c3d !important;
-
+  text-shadow: 0 0 5px #ffffff;
   cursor: grabbing;
   font-size: 28px;
   font-family: "Courier New" !important;
@@ -171,9 +171,7 @@ meter{
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
-  .col-25,
-  .col-75,
-  input[type=button] {
+  .col-25,.col-75,input[type=button] {
       width: 100%;
       margin-top: 0;
   }
@@ -188,37 +186,27 @@ meter{
   justify-items: center;
  }
 
-input[type=text], input[type=number],input[type=password],select {
-  font-size: 18px !important;
-}
+  input[type=text], input[type=number],input[type=password],select {
+    font-size: 18px ;
+  }
+    
+  label{
+    color: #696969;
+  }
   
-label{
-  color: #696969;
-}
-
-.pass1{
-  font-size: 28px !important;
-  color: #f35626;
-}
-
-.container{
-  padding: 0px !important;
-  border: 0px solid transparent;
-}
-
-.pass1{
-  font-size: 40px !important;   
-  padding: 10px 0px !important;
-  font-size:25px !important;
-font-family: monospace !important;
-  animation: mymove 10s infinite;
-}
-
+  .pass1{
+    font-size: 28px !important;
+    color: #f35626;
+  }
   
+  .container{
+    padding: 0px !important;
+    border: 0px solid transparent;
+  }
+  
+  .pass1{
+    font-size: 25px !important;   
+    padding: 10px 0px !important;
+  }  
 }
 
-@keyframes mymove {
-   0% { color: #ff5555; }
-  50% { color: #65ff65; }
-  100% { color: #5f5fff; }
-}
